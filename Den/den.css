@@ -1,0 +1,169 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    font-size: x-large;
+}
+.right_menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.right_menu ul li:hover {
+    color: red;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main1 {
+    font-size: 30px;
+}
+.main1 h1 {
+    color: red;
+}
+.main1 h3 {
+    color: blue;
+}
+.main2 img {
+    height: 500px;
+}
+button {
+    padding: 10px 30px 10px 30px;
+    margin-left: 40%;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border: none;
+}
+button:hover {
+    color: black;
+}
+.about {
+    display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+}
+.about1 {
+    font-size: x-large;
+}
+.button3 {
+    margin-right: 20%;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-align: center;
+}
+.product1 img {
+     width: 250px;
+     border: 20px solid whitesmoke;
+     padding: 10px;
+     background-color:white;
+}
+.product1 h3 {
+    font-size: 20px;
+    color: red;
+}
+h1 {
+    color: red;
+    font-size: 50px;
+}
+span {
+    color: black;
+}
+.product1 img:hover {
+    border: 20px solid red;
+}
+.head {
+    text-align: center;
+}
+.gallery {
+    display: flex;
+}
+.gallery img {
+    width: 300px;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+} 
+.info_im img {
+    width: 600px;
+}
+form {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: tomato;
+
+}
+.info form input {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    padding: 10px;
+}
+.button4 {
+    margin-top: 20px;
+    margin-left: 15%;
+    background-color: black;
+}
+.button4:hover {
+    color: red;
+}
+.footer {
+    background-color: rgb(49, 43, 43);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.footer1 {
+    font-size: 25px;
+    padding: 20px;
+}
+.main_footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 20px;
+}
+.footer2 h2{
+    font-size: 30px;
+}
+.main_footer h2 {
+    font-size: 30px;
+}
+.footer2 i {
+    margin: 5px;
+    border: 2px dotted red;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.footer3 h2 {
+    font-size: 30px;
+}
+.footer3 ul li {
+     margin-bottom: 10px;
+}
+ ul li::marker {
+   color:red;
+}
+.icon {
+    display: flex;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.icon i {
+    margin-left: 20px;
+}
+.foot{
+    flex-wrap: wrap;
+}
+.foot img{
+  margin: 10px;
+}
+
+
+
